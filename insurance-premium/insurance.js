@@ -32,6 +32,7 @@ var InsurancePolicy = /** @class */ (function () {
         }
         if (this.age < 25) {
             basePremium += 50;
+            
         }
         else if (this.age > 60) {
             basePremium += 100;
